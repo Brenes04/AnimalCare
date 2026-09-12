@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frmConsultaMedica">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="9" column-count="29" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1417" height="529"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2f261" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fecha"/>
+        </properties>
+      </component>
+      <component id="3df9f" class="javax.swing.JButton" binding="btnGuardar">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="130" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Guardar"/>
+        </properties>
+      </component>
+      <hspacer id="22667">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="75916">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="8bfee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Hora"/>
+        </properties>
+      </component>
+      <component id="d942f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mascota"/>
+        </properties>
+      </component>
+      <component id="fdaa3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Propietario"/>
+        </properties>
+      </component>
+      <component id="7a1ae" class="javax.swing.JSpinner" binding="spnFecha">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8543c" class="javax.swing.JSpinner" binding="spnHora">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="92ba8" class="javax.swing.JComboBox" binding="cbxMascota">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1586e" class="javax.swing.JComboBox" binding="cbxPropietario">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="94c09" class="javax.swing.JButton" binding="btnBuscar">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="130" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Buscar"/>
+        </properties>
+      </component>
+      <component id="24f95" class="javax.swing.JButton" binding="btnModificar">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="130" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Modificar"/>
+        </properties>
+      </component>
+      <component id="a9b31" class="javax.swing.JButton" binding="btnLimpiar">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="130" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <component id="fef87" class="javax.swing.JButton" binding="btnSalir">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="130" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <scrollpane id="4f59f">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="29" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="850" height="180"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="15e0a" class="javax.swing.JTable" binding="tableConsulta">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="2ad45" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Especialidad"/>
+        </properties>
+      </component>
+      <component id="bcc29" class="javax.swing.JComboBox" binding="cbxEspecialidad">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="6" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1a3db" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Costo"/>
+        </properties>
+      </component>
+      <component id="7e82d" class="javax.swing.JTextField" binding="txtCosto">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="32"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a0c5b" class="javax.swing.JTextField" binding="txtDiagnostico">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3b0b4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Diagnostico"/>
+        </properties>
+      </component>
+      <component id="fe45d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Motivo"/>
+        </properties>
+      </component>
+      <component id="41ac" class="javax.swing.JTextField" binding="txtMotivo">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8fde" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Veterinario"/>
+        </properties>
+      </component>
+      <component id="b49e1" class="javax.swing.JComboBox" binding="cbxVeterinario">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="9" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="45"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="eea75" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Numero Consulta"/>
+        </properties>
+      </component>
+      <component id="18caf" class="javax.swing.JTextField" binding="txtNumConsulta">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="4e50b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="2"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="CONSULTA MEDICA"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
